@@ -1,0 +1,44 @@
+<odoo>
+  <data>
+
+    <record id="res_material_demo_1" model="res.material">
+      <field name="name">Fabric A</field>
+      <field name="partner_id" ref="base.res_partner_1"/>
+      <field name="code">FBRA</field>
+      <field name="type">fabric</field>
+      <field name="buy_price">250</field>
+    </record>
+
+    <record id="res_material_demo_2" model="res.material">
+      <field name="name">Jean A</field>
+      <field name="partner_id" ref="base.res_partner_2"/>
+      <field name="code">JAENSA</field>
+      <field name="type">jeans</field>
+      <field name="buy_price">300</field>
+    </record>
+
+    <record id="res_material_demo_3" model="res.material">
+      <field name="name">Cotton A</field>
+      <field name="partner_id" ref="base.res_partner_3"/>
+      <field name="code">CTTNA</field>
+      <field name="type">cotton</field>
+      <field name="buy_price">400</field>
+    </record>
+
+    <record id="res_material_demo_4" model="res.material">
+      <field name="name">Fabric B</field>
+      <field name="partner_id" ref="base.res_partner_4"/>
+      <field name="code">FBRB</field>
+      <field name="type">fabric</field>
+      <field name="buy_price">150</field>
+    </record>
+
+    <record id="res_material_demo_5" model="res.material">
+      <field name="name">Jean B</field>
+      <field name="partner_id" ref="base.res_partner_4"/>
+      <field name="code">JENSB</field>
+      <field name="type">jeans</field>
+      <field name="buy_price">350</field>
+    </record>
+  </data>
+</odoo>
